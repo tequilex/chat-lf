@@ -26,3 +26,4 @@
 - запустите `npm run server` из папки Server
 - откройте `http://localhost:8080/chatik`
 
+![](https://github.com/tequilex/chat-lf/blob/dev-chat/projects/chatik/readme-photo/main.png)
