@@ -1,0 +1,106 @@
+#load {
+    background: #215488;
+    top: 30vh;
+    width: 364px;
+    height: 220px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.closeBtn {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.load-tittle {
+    margin-left: 35px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.load-photo {
+    margin-left: 35px;
+    margin-bottom: 17px;
+    display: flex;
+}
+
+
+.preview-photo {
+    width: 86px;
+    height: 86px;
+    border-radius: 50px;
+    overflow: hidden;
+    background: url(../../images/anon.png) center center / cover no-repeat;
+    margin-right: 20px;
+}
+
+.load-photo__userName {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 44px;
+    margin-left: 32px;
+    color: #FFFFFF;
+}
+
+.inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputFile+label {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6BB2F2;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+    width: 86px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 10px;
+}
+
+
+.load-photo-btns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.clean {
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6BB2F2;
+    padding: 10px 11px;
+}
+
+.save {
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6BB2F2;
+    border: none;
+    padding: 10px 11px;
+}

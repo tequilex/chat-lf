@@ -1,0 +1,14 @@
+{
+    "proxy": {
+        "/chatik/ws": {
+            "target": "ws://localhost:8283",
+            "ws": true
+        },
+        "/chatik/upload-photo": {
+            "target": "http://localhost:8283"
+        },
+        "/chatik/photos": {
+            "target": "http://localhost:8283"
+        }
+    }
+}
