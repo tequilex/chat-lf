@@ -1,0 +1,363 @@
+html, body, #app, #main {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+}
+
+#app {
+    background: #0E1621;
+    display: flex;
+    justify-content: center;
+}
+
+#login {
+    position: absolute;
+    top: 10vh;
+    width: 500px;
+    height: 530px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #17212B;
+}
+
+.login__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__content-img {
+    padding-top: 39px;
+    margin-bottom: 29px;
+}
+
+.login__content-tittle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.login__content-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #7F91A4;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0px 110px;
+}
+
+::placeholder {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #858F98;;
+}
+
+.login-name-input {
+    width: 298px;
+    border: 0px;
+    background: #17212B;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+    border-bottom: 1px solid #465461;
+}
+
+.login-submit {
+    padding: 13px 40px;
+    background: #5188C1;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#main {
+    display: flex;
+}
+
+.left-side {
+    max-width: 320px;
+    flex-grow: 1;
+    background: #17212B;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.user-photo,
+.message-item-photo {
+    background: url(reosurces/150fe38b.png);
+    background-size: cover;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5387C1;
+}
+
+
+.user-list-header {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.user-list {
+    max-height: 85vh;
+    overflow-y: scroll;
+}
+
+.user-list-item {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5387C1;
+}
+
+
+.right-side {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border: 1px solid #0E1621;
+}
+
+.right-side-header {
+    padding: 12px 5px 16px 16px;
+    background: #17212B;
+}
+
+.right-side-header__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.user-list__size {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #7F91A4;
+}
+
+.messages-container {
+    background: #0E1621;
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message-item {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.message-item-header {
+    display: flex;
+}
+
+.message-item-header-name {
+    color: #5387C1;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.message-item-header-time {
+    color: gray;
+}
+
+.message-item-system {
+    color: gray;
+}
+
+.message-item-text {
+    color: #FFFFFF;
+    background: #215488;
+    border-radius: 7px;
+    padding: 3px;
+
+}
+
+.input-container {
+    padding: 7px;
+    background: #17212B;
+    display: flex;
+    align-items: center;
+}
+
+.message-input {
+    height: 30px;
+    flex-grow: 1;
+    background: #17212B;
+    color: #FFFFFF;
+    border: 0px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 4px;
+}
+
+.send-button {
+    background: #5387C1;
+    border-radius: 5px;
+    padding: 6px 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 5px;
+}
+#load {
+    background: #215488;
+    top: 30vh;
+    width: 364px;
+    height: 220px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.closeBtn {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.load-tittle {
+    margin-left: 35px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.load-photo {
+    margin-left: 35px;
+    margin-bottom: 17px;
+    display: flex;
+}
+
+
+.preview-photo {
+    width: 86px;
+    height: 86px;
+    border-radius: 50px;
+    overflow: hidden;
+    background: url(reosurces/150fe38b.png) center center / cover no-repeat;
+    margin-right: 20px;
+}
+
+.load-photo__userName {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 44px;
+    margin-left: 32px;
+    color: #FFFFFF;
+}
+
+.inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputFile+label {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6BB2F2;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+    width: 86px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 10px;
+}
+
+
+.load-photo-btns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.clean {
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6BB2F2;
+    padding: 10px 11px;
+}
+
+.save {
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6BB2F2;
+    border: none;
+    padding: 10px 11px;
+}
+
